@@ -7,8 +7,12 @@ h2 {
 text-indent: 15px; letter-spacing: 2px;
 margin: 15px 30px 5px 30px;
 }
-h6 {font-family: Verdana; font color=#A4A4A4
+h6 {font-family: Verdana;
 }
+
+.стиль1 {color: #FF0000; font-weight: bold;}
+.стиль2 {color: #999999; font-family: Verdana, Arial, Helvetica, sans-serif}
+.стиль3 {font-family: Verdana, Arial, Helvetica, sans-serif}
 
 p {
 font-family:Verdana;  letter-spacing: 0px;
@@ -31,4 +35,53 @@ font-family:Verdana;
 text-decoration:none;
 }
 
+/*лини€*/
+.signature {
+	font-size:85%;
+	padding:5px;
+	border-top:1px dotted #000000;
+	margin-top:5px;
+}
+
+/*Ќачало блока ссылок*/
+p.title {
+background-color: #A72E37;
+color: #ffffff;
+font-weight:bold;
+margin:5px;
+padding:5px;
+}
+
+#coolmenu{
+border: 0px solid gray; /*—тиль рамки */
+border-bottom-width: 0;
+width: 93%; /*Ўирина меню */
+  /*‘оновый цвет €чейки*/
+margin:8px; /*Ўирина отступов*/
+}
+
+* html #coolmenu{ 
+width: 150px;/*Ўирина меню дл€ Internet Explorer*/
+}
+
+#coolmenu a{
+font: bold 13px Verdana; /*Ўрифт текста*/
+padding: 2px; /*¬нутренний отсутп текста ссылки от краев €чейки*/
+padding-left: 4px;/*¬нутренний отсутп текста ссылки от левого кра€ €чейки*/
+display: block;
+width: 100%; /*Ўирина €чейки*/
+color: #000000;  /*÷вет текста*/
+text-decoration: none; /*ѕодчеркивание у ссылок - нет*/
+border-bottom: 1px solid gray;
+}
+
+html>body #coolmenu a{ 
+width: auto;
+}
+
+#coolmenu a:hover{
+background-color: #5bbbff; /*‘оновый цвет €чейки при наведение курсора*/
+color: #ffffff;  /*÷вет текста при наведении курсора*/
+}
+/*конец блока ссылок*/
 
