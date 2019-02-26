@@ -10,9 +10,9 @@ margin: 15px 30px 5px 30px;
 h6 {font-family: Verdana;
 }
 
-.стиль1 {color: #FF0000; font-weight: bold;}
-.стиль2 {color: #999999; font-family: Verdana, Arial, Helvetica, sans-serif}
-.стиль3 {font-family: Verdana, Arial, Helvetica, sans-serif}
+.style1 {color: #FF0000; font-weight: bold;}
+.style2 {color: #999999; font-family: Verdana, Arial, Helvetica, sans-serif}
+.style3 {font-family: Verdana, Arial, Helvetica, sans-serif}
 
 p {
 font-family:Verdana;  letter-spacing: 0px;
@@ -35,7 +35,7 @@ font-family:Verdana;
 text-decoration:none;
 }
 
-/*лини€*/
+/*linie*/
 .signature {
 	font-size:85%;
 	padding:5px;
@@ -43,7 +43,7 @@ text-decoration:none;
 	margin-top:5px;
 }
 
-/*Ќачало блока ссылок*/
+/*Anfang den Links-Block*/
 p.title {
 background-color: #A72E37;
 color: #ffffff;
@@ -53,25 +53,25 @@ padding:5px;
 }
 
 #coolmenu{
-border: 0px solid gray; /*—тиль рамки */
+border: 0px solid gray; /*Style des Borders */
 border-bottom-width: 0;
-width: 93%; /*Ўирина меню */
-  /*‘оновый цвет €чейки*/
-margin:8px; /*Ўирина отступов*/
+width: 93%; /*Breite Menu */
+  /*Hintergrund ja4ejki*/
+margin:8px; /*breite otstupov*/
 }
 
 * html #coolmenu{ 
-width: 150px;/*Ўирина меню дл€ Internet Explorer*/
+width: 150px;/*Menu breite for Internet Explorer*/
 }
 
 #coolmenu a{
-font: bold 13px Verdana; /*Ўрифт текста*/
-padding: 2px; /*¬нутренний отсутп текста ссылки от краев €чейки*/
-padding-left: 4px;/*¬нутренний отсутп текста ссылки от левого кра€ €чейки*/
+font: bold 13px Verdana; /*Schrift teksta*/
+padding: 2px; /*Vnutrennij otstup teksta ssylki ot kraev ja4ejki*/
+padding-left: 4px;/*Vnutrennij otstup teksta ssylki ot levogo kraja ja4ejki*/
 display: block;
-width: 100%; /*Ўирина €чейки*/
-color: #000000;  /*÷вет текста*/
-text-decoration: none; /*ѕодчеркивание у ссылок - нет*/
+width: 100%; /*Schirina ja4ejki*/
+color: #000000;  /*Zvet tekcta*/
+text-decoration: none; /*Links unterstreichung*/
 border-bottom: 1px solid gray;
 }
 
@@ -80,8 +80,8 @@ width: auto;
 }
 
 #coolmenu a:hover{
-background-color: #5bbbff; /*‘оновый цвет €чейки при наведение курсора*/
-color: #ffffff;  /*÷вет текста при наведении курсора*/
+background-color: #5bbbff; /*Farbe des hintergrundes beim Mauszeiger*/
+color: #ffffff;  /*Farbe des textes beim Mauszeiger*/
 }
-/*конец блока ссылок*/
+/*ende Links-Block*/
 
